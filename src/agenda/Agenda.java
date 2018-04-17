@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package agenda;
 
 import java.io.BufferedReader;
@@ -18,7 +14,7 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
- *
+ * sdasd
  * @author Rubén
  */
 public class Agenda {
@@ -41,7 +37,7 @@ public class Agenda {
            }
     }
 
-    public boolean existirContacto(String nombre){ // para que no deje crear un contacto existente
+    public boolean existirContacto(String pedro){ // para que no deje crear un contacto existente
         for (Contacto c: listaContactos) {
                 if(nombre.equals(c.getNombre())){
                   return true;  
